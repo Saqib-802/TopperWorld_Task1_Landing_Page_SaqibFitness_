@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 15px;
+
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{
+    width: 50%;
+}
+
+.section1{
+    max-height: 100vh;
+}
+
+.section1 h1{
+    font-size: 1.9rem ;
+}
+
+.logo{
+    font-size: 2.2rem;
+    color: rgb(134, 51, 18);
+}
+
+.dumblling{
+    width: 400px;
+    padding: 0px 10px 2px 80px;
+
+}
+
+.topright .gyming{
+    width: 460px;
+    padding: 0px 0px 0px 110px;
+}
+
+.section2{
+    padding: 65px;
+}
+
+.section2 h1{
+    font-size: 2rem;
+}
+
+.section2 p{
+    padding: 0 8vh;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0px;
+    margin: 12px 12px;
+    min-width: 20vw;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 1.5rem;
+    padding: 10px 0px;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.highlighted{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0px;
+}
+
+.section3 table td{
+border-bottom: 2px solid black;
+}
+
+.section3 table tr{
+    border-bottom: 2px solid black; 
+}
+
+.section3 h1{
+font-size: 2rem;
+}
+
+.section3{
+padding: 65px;
+}
+
+footer{
+    padding: 30px;
+}
